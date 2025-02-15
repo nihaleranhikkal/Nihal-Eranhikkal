@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihal Eranhikkal - ACCA Student & Content Creator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: #000;
+            color: #ffd700;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid #ffd700;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .nav {
+            background-color: #111;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background-color: #111;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #ccc;
+        }
+
+        .hero button {
+            padding: 0.8rem 2rem;
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .hero button:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #ffd700;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .gallery img, .gallery video {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+        }
+
+        .contact {
+            background-color: #111;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+
+        .contact a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #111;
+            color: #ffd700;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            border-top: 2px solid #ffd700;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Nihal Eranhikkal</h1>
+        <p>ACCA Student | Content Creator</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="hero" id="home">
+            <h2>Welcome to My World</h2>
+            <p>Exploring finance, creating content, and sharing my journey as an ACCA student.</p>
+            <button>Explore My Work</button>
+        </section>
+
+        <section id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300x200" alt="Photo 1">
+                <img src="https://via.placeholder.com/300x200" alt="Photo 2">
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>Email: <a href="mailto:nihale7878@gmail.com">nihale7878@gmail.com</a></p>
+            <p>Instagram: <a href="https://instagram.com/nhl_bn_slm" target="_blank">@nhl_bn_slm</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Nihal Eranhikkal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
